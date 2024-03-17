@@ -38,15 +38,15 @@ const githubData = {
   "updated_at": "2024-03-16T08:47:32Z"
 }
 app.get('/', (req, res) => {
-  res.send('Home Page')
+  res.send('<h1>Home Page</h1>')
 })
 
 app.get('/login', (req, res) => {
-  res.send("Login Page")
+    res.send("Login Page")
 })
 
 app.get('/twitter', (req, res) => {
-  res.send("Twitter Page")
+    res.send("Twitter Page")
 })
 
 app.get('/github', (req, res) => {
